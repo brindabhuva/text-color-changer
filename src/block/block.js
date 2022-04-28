@@ -14,13 +14,13 @@ const { registerBlockType } = wp.blocks; // Import registerBlockType() from wp.b
  *                             registered; otherwise `undefined`.
  */
 registerBlockType( 'cgb/block-test', {
-	title: __( 'My Custom Block' ), // Block title.
+	title: __( 'test Block' ), // Block title.
 	icon: 'bank', // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
 	category: 'common', // Block category — Group blocks together based on common traits E.g. common, formatting, layout widgets, embed.
 	keywords: [
 		__('Brinda'),
 		__('My Custom Block'),
-		// __( 'test' ),
+		__( 'test' ),
 		// __( 'CGB Example' ),
 		// __( 'create-guten-block' ),
 	],
